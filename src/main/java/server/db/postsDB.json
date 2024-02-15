@@ -1,0 +1,64 @@
+[
+{
+  "author" : "carlo",
+  "title" : "sono il primo!",
+  "content" : "e che contenuto!",
+  "creation_timestmp" : 1645761997000,
+  "idPost" : 1,
+  "voters" : {
+    "peppe" : true
+  },
+  "comments" : [ ],
+  "upvotes" : 1,
+  "downvotes" : 0,
+  "iterations" : 1,
+  "new_voters" : [ ],
+  "old_upvotes" : 1,
+  "old_downvotes" : 0
+},
+{
+  "author" : "carlo",
+  "title" : "wincoints ftw",
+  "content" : "free crypto",
+  "creation_timestmp" : 1666670797000,
+  "idPost" : 2,
+  "voters" : { },
+  "comments" : [ ],
+  "upvotes" : 0,
+  "downvotes" : 0,
+  "iterations" : 1,
+  "new_voters" : [ ],
+  "old_upvotes" : 0,
+  "old_downvotes" : 0
+},
+{
+  "author" : "carlo",
+  "title" : "yaeee",
+  "content" : "bbbb",
+  "creation_timestmp" : 1666757005080,
+  "idPost" : 3,
+  "voters" : { },
+  "comments" : [ ],
+  "upvotes" : 0,
+  "downvotes" : 0,
+  "iterations" : 1,
+  "new_voters" : [ ],
+  "old_upvotes" : 0,
+  "old_downvotes" : 0
+},
+{
+  "author" : "peppe",
+  "title" : "error_test",
+  "content" : "con forse un errore?",
+  "creation_timestmp" : 1666758403300,
+  "idPost" : 4,
+  "voters" : { },
+  "comments" : [ ],
+  "upvotes" : 0,
+  "downvotes" : 0,
+  "iterations" : 0,
+  "new_voters" : [ ],
+  "old_upvotes" : 0,
+  "old_downvotes" : 0
+}
+]

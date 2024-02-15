@@ -1,0 +1,72 @@
+[
+{
+  "username" : "camilla",
+  "password_hash" : "hc/MPg==",
+  "salt" : "L1c6Y8auPo6Wo9UQdG6j0A==",
+  "tags" : [ "uno" ],
+  "posts" : [ ],
+  "followers" : [ ],
+  "following" : [ ],
+  "wallet" : {
+    "wincoin" : 0.0,
+    "transactions" : [ ]
+  }
+},
+{
+  "username" : "carlo",
+  "password_hash" : "d6UPuA==",
+  "salt" : "LTbWa70bwfcyJqjvp8OWgA==",
+  "tags" : [ "uno", "tre" ],
+  "posts" : [ {
+    "first" : 3,
+    "second" : 1666757005080
+  }, {
+    "first" : 2,
+    "second" : 1666670797000
+  }, {
+    "first" : 1,
+    "second" : 1645761997000
+  } ],
+  "followers" : [ "peppe" ],
+  "following" : [ ],
+  "wallet" : {
+    "wincoin" : 0.48520303,
+    "transactions" : [ {
+      "time" : 1666757031495,
+      "wincoin_increment" : 0.4852030277252197
+    } ]
+  }
+},
+{
+  "username" : "peppe",
+  "password_hash" : "jIfF9w==",
+  "salt" : "1NPSZoPOlnEJRcyJwPTndg==",
+  "tags" : [ "due", "tre" ],
+  "posts" : [ {
+    "first" : 4,
+    "second" : 1666758403300
+  } ],
+  "followers" : [ ],
+  "following" : [ "carlo" ],
+  "wallet" : {
+    "wincoin" : 0.20794417,
+    "transactions" : [ {
+      "time" : 1666757031495,
+      "wincoin_increment" : 0.20794416964054108
+    } ]
+  }
+},
+{
+  "username" : "vince",
+  "password_hash" : "zi28/w==",
+  "salt" : "XAVgssgsCWfF/2LbPPmD/w==",
+  "tags" : [ "uno", "due", "tre" ],
+  "posts" : [ ],
+  "followers" : [ ],
+  "following" : [ ],
+  "wallet" : {
+    "wincoin" : 0.0,
+    "transactions" : [ ]
+  }
+}
+]
