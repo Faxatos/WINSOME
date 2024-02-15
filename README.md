@@ -1,6 +1,8 @@
 # WINSOME
 
-client-server application inspired from [steemit](https://steemit.com/)
+Client-server application inspired from [steemit](https://steemit.com/)
+
+Network Laboratory Course Project - Final Grade: 30/30
 
 ## System Architecture Overview
 
@@ -14,12 +16,12 @@ The server software loads and creates social network-related data upon startup, 
 - *Social network functionalities*: Implements social network functionalities that [can be utilized from client](#commands).
 - *Command-line interface*: Used to monitor clients interactions and to stop the server if needed.
 - *Data Management*: Loads and creates social network-related data upon startup. Updates data storages during the server shutdown phase.
-- *RMI Interface Export*: Exposes an RMI interface-bound object for client discovery and multicast registration.
+- *RMI Interface Export*: Exposes an RMI interface-bound object for client sign-up and multicast registration.
 - *Multicast Communication*: Periodically notifies clients of reward calculations via multicast communication.
 
 Following this, a thread pool is opened, with the selector assigning various tasks related to client requests for execution. Due to potential simultaneous task execution by multiple threads, synchronization is necessary for accessing certain data structures.
 
-Upon server shutdown (triggered by the command *exit*), the social network state is preserved by storing users and posts in separate JSON files (postsDB.json and usersDB.json), facilitating retrieval upon system restart.
+Upon server shutdown (triggered by the command *exit*), the social network state is preserved by storing users and posts in separate JSON files (*postsDB.json* and *usersDB.json*), facilitating retrieval upon system restart.
 
 ### Client
 
