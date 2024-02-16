@@ -62,3 +62,7 @@ Commands that can only be performed when *logged* in:
 - **wallet**: Prints the total wincoins in your possession, and then initializes a page containing the list of transactions.
 - **wallet btc**: Shows how much our wincoins are worth when converted into bitcoins.
 - **logout \<username>**: Logs the user out of the service.
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
